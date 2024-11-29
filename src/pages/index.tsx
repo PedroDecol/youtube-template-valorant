@@ -1,9 +1,8 @@
 import styles from 'styles/home.module.scss'
+import { Header } from 'components/Header'
 const HomePage = () => (
   <div className={styles.container}>
-    <header>
-      <div className={styles.header__content}>header</div>
-    </header>
+    <Header />
     <main>Main</main>
   </div>
 )
